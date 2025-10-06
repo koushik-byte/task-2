@@ -13,7 +13,6 @@ export default defineConfig({
   plugins: [
     nunjucks({
       templatesDir: resolve(__dirname, 'src/templates'),
-      base: process.env.VITE_BASE_PATH  || "/task-2",
       variables: {
         'index.html': data
       }
