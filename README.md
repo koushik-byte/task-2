@@ -18,7 +18,7 @@
 4. *Preview production build:*
    npm run preview
 
-   Nunjucks Templating
+# Nunjucks Templating
 - *Main template*: `index.html` - The entry point that includes all Nunjucks partials
 - *Partials*: Reusable components in `src/templates/partials/` directory
   - `head.njk` - HTML head with meta tags and stylesheets
